@@ -5,7 +5,7 @@
 # how to use
 ## 記事の取得
 - `master`ブランチにおいて
-  - `docker-compose run blogsync pull ${blogdomain}`
+  - `/bin/bash scripts/pull.sh`
 
 ## 記事追加、編集の前提
 - branchの変更(master branchからの変更が投稿の対象)
